@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+
+
+main {
+    height:  500px;
+    width: 400px;
+    border: 3px solid lightcoral;
+    border-radius: 20px;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+
+
+form input {
+    padding: 30px;
+    align-items: center;
+    width: 20px;
+    border-radius: 20px;
+     text-align: center;
+     font-family: 'Montserrat';
+     font-weight: 700;
+     margin: 3px;
+       
+}
+
+.text {
+    background-color: lightgray;
+    color: black;
+    width: 120px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+.num {
+    cursor: pointer;
+}
+
+.c {
+    color: black !important;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: lightgray;
+    border-radius: 50px;
+    transition: 0.3s;
+    border: 2px solid black;
+    margin-left: 25px;
+}
+
+.c:hover {
+    background-color: rgb(120, 120, 120);
+}
+
+.maincolor {
+    cursor: pointer;
+    color: black;
+    transition: 0.4s;
+}
+
+.maincolor:hover {
+    background-color: rgb(176, 176, 176);
+}
+
+.ora {
+    transition: 0.3s;
+    background-color: lightsalmon;
+}
+
+.ora:hover {
+    background-color: rgb(252, 173, 142);
+}
+
+.gre {
+    transition: 0.3s;
+    background-color: lightpink;
+}
+
+.gre:hover {
+    background-color: rgb(253, 201, 209);
+}
+
+.blue {
+    transition: 0.3s;
+   background-color: lightgreen;
+}
+
+.blue:hover {
+    background-color: rgb(169, 239, 169);
+}
+
+.pin {
+    transition: 0.3s;
+    background-color: lightblue;
+}
+
+.pin:hover {
+    background-color: rgb(192, 220, 229);
+}
