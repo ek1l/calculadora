@@ -32,6 +32,21 @@ main {
     margin: 20px;
 }
 
+.nome {
+    color: lightseagreen;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    display: flex;
+    margin-left: 50px;
+    width: 20px;
+    transition: 0.3s;
+}
+
+.nome:hover {
+    color: rgb(67, 207, 200);
+
+}
+
 
 
 form input {
